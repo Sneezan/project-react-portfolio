@@ -1,26 +1,14 @@
 import React from 'react'
-import './index.css';
-import Header from 'components/Header.js'
-import AboutSection from 'components/AboutSection';
-
-import TechStack from 'components/TechStack';
-import FeaturedProjects from 'components/FeaturedProjects';
-import SkillSection from 'components/SkillsSection';
-import Thoughts from 'components/Thoughts';
-import MoreSection from 'components/MoreSection';
-import ContactFooter from 'components/ContactFooter';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { MainPage } from 'components/MainPage';
 
 export const App = () => {
   return (
-    <div>
-      <Header />
-      <AboutSection />
-      <TechStack />
-      <FeaturedProjects />
-      <SkillSection />
-      <MoreSection />
-      <Thoughts />
-      <ContactFooter />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+      </Routes>
+    </BrowserRouter>
+
   )
 }
