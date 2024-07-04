@@ -29,7 +29,7 @@ const Header = () => {
         </IconsContainer>
         <BackgroundImg src={BackgroundImage} />
         <Name>Frontend developer</Name>
-        <Title>Cecilia Frånlund</Title>
+        <Title>Cecilia Öhrn</Title>
       </Background>
       <a
         href="https://www.linkedin.com/in/ceciliafranlund/"

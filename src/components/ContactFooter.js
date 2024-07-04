@@ -8,7 +8,7 @@ const ContactFooter = () => {
       <SectionTitle>CONTACT</SectionTitle>
       <FooterWrap>
         <FooterContainer>
-          <h2>Cecilia Frånlund</h2>
+          <h2>Cecilia Öhrn</h2>
           <h2>Frontend developer</h2>
           <h2>ceciliafraanlund@gmail.com</h2>
           <h2>+46 728 5454 14</h2>
@@ -21,22 +21,22 @@ const ContactFooter = () => {
 export default ContactFooter;
 
 const FooterWrap = styled(TextWrapper)`
-display:flex;
-`
+  display: flex;
+`;
 
 const FooterContainer = styled.div`
-margin: 0 auto;
-text-align: center;
-padding-bottom: 50px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
 
-h2{
+  h2 {
     color: white;
     line-height: 1rem;
     font-weight: 400;
     font-size: 1.2rem;
-}
+  }
 `;
 
 const Footer = styled(Section)`
-background-color: var(--darkChocolate);
+  background-color: var(--darkChocolate);
 `;
