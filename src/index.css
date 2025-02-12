@@ -1,12 +1,12 @@
 :root {
-  --darkChocolate: #31272a; 
-  --mudSlide: #5D4748; 
-  --warmWhite: #F4F2F2;
-  --lightMudSlide: #a28889; 
+  --darkChocolate: #3d40ff; 
+  --mudSlide: #110c3f; 
+  --warmWhite: #f6f6f6;
+  --lightMudSlide: #87b0f8; 
 
   --mineShaft: #181012; 
   --purpleHighlight: #489cb8; 
-  --steelBlue: #294f5c; 
+  --steelBlue: #4d636b; 
 }
 
 body {

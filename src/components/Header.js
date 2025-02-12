@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 import React from 'react';
-import Cecilia from '../images/profileimg.png'
+import Cecilia from '../images/profileimg.jpg'
 import GitHub from '../images/cat1.png'
 import LInkedIn from '../images/link1.png'
-import BackgroundImage from '../images/SpaceHeader4.png'
 
 const Header = () => {
   return (
@@ -27,9 +26,8 @@ const Header = () => {
               alt="link to Cecilias Linked In" />
           </a>
         </IconsContainer>
-        <BackgroundImg src={BackgroundImage} />
-        <Name>Frontend developer</Name>
-        <Title>Cecilia Frånlund</Title>
+        <Name>Software Engineer</Name>
+        <Title>Cecilia Öhrn</Title>
       </Background>
       <a
         href="https://www.linkedin.com/in/ceciliafranlund/"
@@ -43,22 +41,13 @@ const Header = () => {
 export default Header;
 
 const Background = styled.header`
-  background-color: var(--mudSlide);
+  background-color: #375bff;
   width: 100%;
   height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
-`;
-
-const BackgroundImg = styled.img`
-  background-size: cover;
-  opacity: 80%;
-  @media (max-width: 455px) {
-    height: 100%;
-  }
-
 `;
 
 const IconsContainer = styled.div`
@@ -86,14 +75,14 @@ const IconsContainer = styled.div`
 
 const Title = styled.h1`
     position: absolute;
-    width: 300px;
+    width: 480px;
     top: 35%;
     left: 10%;
     color: var(--warmWhite);
     font-size: 3rem;
-    line-height: 2.8rem;
     font-family: roboto;
     text-shadow: 0px 0px 1px white;
+
   @media (min-width: 900px) {
     font-size: 4.9rem;
     line-height: 3.9rem;
@@ -128,8 +117,8 @@ const Name = styled.h3`
 `;
 
 const ProfileImage = styled.img`
-    position:absolute;
-    width: 190px;
+    position: absolute;
+    width: 180px;
     margin: 50px;
     right: -20px;
     top: 230px;
@@ -140,7 +129,7 @@ const ProfileImage = styled.img`
       right: 20px;
       &:hover {
       filter: blur(2px);
-      border: 5px solid #643036;
+      border: 5px solid rgb(102, 255, 0);
     }
   }
   @media (min-width: 900px) {

@@ -72,7 +72,7 @@ padding-right: 20%;
 `;
 
 const SkillTitle = styled.p`
-color: #DCCFB4;
+color: var(--warmWhite);
 font-weight: 700;
 font-size: 1.2rem;
 text-transform: uppercase;

@@ -33,15 +33,15 @@ const TechStack = () => {
       <Wrapper>
         <SectionTitle>some of my skills</SectionTitle>
         <TechStackWrap>
-          <Highlight>JavaScript & TypeScript </Highlight>| HTML5 |<Highlight> React </Highlight> |
-          <Highlight> CSS </Highlight>| Redux | <Highlight> Node.js </Highlight> | Flexbox | APIs |
-          <Highlight> Agile Methodologies</Highlight>  |  mob-programming |  MongoDB & Mongoose |
-         Git |  <Highlight>Pair-programming</Highlight> | web Accessibility |
-          <Highlight> team oriented</Highlight>
+          <Highlight>TypeScript</Highlight> | <Highlight>JavaScript</Highlight> |
+          <Highlight> React</Highlight> | <Highlight>GO</Highlight> | SQL |
+          <Highlight>REST APIs</Highlight> | <Highlight>GraphQL</Highlight> |
+          <Highlight> Agile Methodologies</Highlight> | <Highlight>Mob Programming</Highlight> |
+          <Highlight> Pair Programming</Highlight> | MongoDB & Mongoose | Git |
+          Web Accessibility | <Highlight>Team Oriented</Highlight>
         </TechStackWrap>
       </Wrapper>
     </TechSection>
   );
 };
-
 export default TechStack;

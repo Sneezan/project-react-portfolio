@@ -21,7 +21,7 @@ padding-right: 25%;
 
 export const Line = styled.span`
     width: 30px;
-    border: 1px solid #337F96;
+    border: 1px solid rgb(102, 255, 0);
     display: inline-block;
     margin-bottom: 4px;
 `;
@@ -29,7 +29,7 @@ export const Line = styled.span`
 export const Dot = styled.span`
     height: 10px;
     width: 10px;
-    background-color: #337F96;
+    background-color: rgb(102, 255, 0);
     border-radius: 50%;
     display: inline-block;
 `;
@@ -43,11 +43,11 @@ export const Website = styled.span`
 font-weight: 700;
 & a, a:visited{
   text-decoration: none ;
-  color: var(--purpleHighlight);
+  color: rgb(102, 255, 0);
 }
 & a, a:active{
   text-decoration: none ;
-  color: var(--purpleHighlight);
+  color: rgb(102, 255, 0));
 }
 & a, :hover{
   cursor: pointer;
@@ -71,7 +71,7 @@ export const About = styled.p`
   line-height: 1.9rem;
   font-size: 1.2rem;
   margin: 0 auto;
-  color: #DCCFB4;
+  color:rgb(243, 239, 231);
 
 @media (min-width: 1200px) {
   line-height: 1.8rem;
