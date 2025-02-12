@@ -12,7 +12,8 @@ The portfolio's design was redone using styled components, props and a brighter 
 
 ## The evolution 
 ### 2022
-The old portfolio:
+The old portfolio
+
 ![Screenshot 2022-10-21 at 16 30 08 (2)](https://user-images.githubusercontent.com/105229808/197237238-d429876a-866e-4726-b70d-b2ac17372be4.png)
 
 ### 2023
