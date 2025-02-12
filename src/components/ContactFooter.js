@@ -9,9 +9,9 @@ const ContactFooter = () => {
       <FooterWrap>
         <FooterContainer>
           <h2>Cecilia Öhrn</h2>
-          <h2>Frontend developer</h2>
-          <h2>ceciliafraanlund@gmail.com</h2>
-          <h2>+46 728 5454 14</h2>
+          <h2>Software Engineer | TypeScript & React</h2>
+          <h2>ceceohrn@gmail.com</h2>
+          <h2>+46 728 5454 15</h2>
           <h2>Stockholm, Sweden</h2>
         </FooterContainer>
       </FooterWrap>
